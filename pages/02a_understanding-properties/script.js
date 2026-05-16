@@ -1,10 +1,13 @@
 import gsap from "gsap";
 gsap.to(".box",{
-    opacity:1,
+    // opacity:1,
     rotation:360,
-    backgroundColor:"#6366f1",
-    borderRadius:50,
-    ease:"power2.inOut",
+    background:"#ff6f61",
+    borderRadius:'50%',
+    ease:"circ",
+    // repeat:-1,
+    // yoyo:true,
     duration:2,
-    delay:.5
+    delay:.5,
+    repeatDelay:2
   })
